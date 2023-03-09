@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE Banco SYSTEM "Banco.dtd">
+<Banco>
+	<Cliente id="C01">
+		<nome>Lucas</nome>
+		<cpf>013.555.666-20</cpf>
+		<Endereco>
+			<email>cordax@gmail.com</email>
+		</Endereco>
+	</Cliente>	
+  <Cliente id="C02">
+		<nome> Marcone </nome>
+		<cpf> 011.333.444-10 </cpf>
+		<Endereco>
+			<email> marcone@gaymail.com </email>
+		</Endereco>
+	</Cliente>
+  <Cliente id="C03">
+		<nome> nomeDoCliente </nome>
+		<cpf> numeroDoCpf </cpf>
+		<Endereco>
+			<email> emailDoCliente </email>
+		</Endereco>
+	</Cliente>	
+	<Conta titular="C01">
+		<numero>0101</numero>
+		<tipo>poupanca</tipo>
+		<saldo>1,20</saldo>
+	</Conta>
+  <Conta titular="C01">
+		<numero> 0102 </numero>
+		<tipo> corrente </tipo>
+		<saldo> -85,00 </saldo>
+	</Conta>
+	<Conta titular="C02">
+		<numero> 0201 </numero>
+		<tipo> poupanca </tipo>
+		<saldo> 0,0002 </saldo>
+	</Conta>
+	<Conta titular="C01 C03">
+		<numero> 010203 </numero>
+		<tipo> conjunta </tipo>
+		<saldo> 500 </saldo>
+	</Conta>	
+</Banco>
